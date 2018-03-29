@@ -1,0 +1,106 @@
+
+		@keyframes animateCircle1
+		{
+			0%
+			{
+				transform: rotate(0deg);
+			}
+			100%
+			{
+				transform: rotate(360deg);
+			}
+		}
+
+		.wheel-container{
+		    display: block;
+		    position: absolute;
+		    background: #929998;
+		    width: 30px;
+		    height: 30px;
+		    border-radius: 50%;
+		}
+
+		#wheel1 {
+			top: 70%;
+		    left: 60%;
+
+		}
+
+		#wheel2 {
+			top: 70%;
+		    left: 20%;
+		}
+
+		.wheel1-line {
+		  height: 100%;
+		  width: 10%;
+		  background-color: white;
+		  left: 50%;
+		  top: 0;
+		  position: absolute;
+		  animation: animateCircle1 5s linear infinite;
+		}
+
+		#frame {
+			//position: relative;
+			border: solid 2px black;
+			left: 500px;
+			top: 500px;
+			width: 70%;
+			height: 100%;
+		}
+
+		#car {
+			position: relative;
+			//border: solid 1px black;
+			width: 300px;
+			height: 200px;
+			left: 10%;
+			top: 60%;
+		}
+
+		#car-front {
+			display: block;
+		    position: absolute;
+		    background: #96d3d0;
+		    width: 60px;
+		    height: 60px;
+		    border-radius: 50%;
+		  	left: 65%;
+		  	top: 40%;
+		}
+
+		#car-floor {
+			position: absolute;
+			background: #c7d811;
+			width: 70%;
+			height: 7%;
+			top: 65%;
+			left: 13%;
+		}
+
+		#car-divided {
+			position: absolute;
+			background: #c7d811;
+			width: 11%;
+			height: 25%;
+			top: 40%;
+			left: 64%;
+		}
+
+		#car-carry {
+			position: absolute;
+			background: #e8edec;
+			width: 50%;
+			height: 40%;
+			top: 24%;
+			left: 13%;
+		}
+
+		#carry-label {
+			font-size: 22px;
+			top: 20%;
+			left: 10%;
+			position: absolute;
+		}
+
