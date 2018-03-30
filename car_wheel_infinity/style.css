@@ -26,6 +26,10 @@
 
 		}
 
+		h1 {
+			text-align: center;
+		}
+
 		#wheel2 {
 			top: 70%;
 		    left: 20%;
@@ -42,8 +46,9 @@
 		}
 
 		#frame {
+			margin: 0 auto;
 			//position: relative;
-			border: solid 2px black;
+			//border: solid 2px black;
 			left: 500px;
 			top: 500px;
 			width: 70%;
@@ -51,11 +56,12 @@
 		}
 
 		#car {
+			margin: 0 auto;
 			position: relative;
 			//border: solid 1px black;
 			width: 300px;
 			height: 200px;
-			left: 10%;
+			//left: 10%;
 			top: 60%;
 		}
 
