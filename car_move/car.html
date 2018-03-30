@@ -1,42 +1,49 @@
  <!DOCTYPE html>
 <html>
 <head>
-	<title>Car Wheel Infinity</title>
+	<title>Car Move</title>
 	<link rel="stylesheet" href="./style.css">
 </head>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script>
 
-</script>
+<script src="./script.js"></script>
+
 
 <body>
+	<h1>Car Move</h1>
 
-	<div id="frame">
-		<h1>Car Wheel Infinity</h1>
-		<div id="car">
-			<div class="wheel-container" id="wheel1">
-			  <div class="wheel1-line"></div>
-			</div>
+	<div id="container">
 
-			<div class="wheel-container" id="wheel2">
-			  <div class="wheel1-line"></div>
-			</div>
+		<div class="screen-side"></div>
+		<div id="frame">
 
-			<div id="car-front"></div>
+			<div id="car">
+				<div class="wheel-container" id="wheel1">
+				  <div class="wheel1-line"></div>
+				</div>
 
-			<div id="car-floor"></div>
+				<div class="wheel-container" id="wheel2">
+				  <div class="wheel1-line"></div>
+				</div>
 
-			<div id="car-divided"></div>
+				<div id="car-front"></div>
 
-			<div id="car-carry">
-				<div id="carry-label">
-					<div>Hello</div>
-					<div>customer!</div>
+				<div id="car-floor"></div>
+
+				<div id="car-divided"></div>
+
+				<div id="car-carry">
+					<div id="carry-label">
+						<div>Hello</div>
+						<div>customer!</div>
+					</div>
 				</div>
 			</div>
-
+			
 		</div>
-
+		<div class="screen-side"></div>
+		<div style="clear: both;"></div>
 	</div>
+	<h2>Use left or right arrow for move the car.</h2>
 </body>
 </html> 
