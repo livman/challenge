@@ -1,0 +1,6 @@
+SELECT 
+	order.order_id, customer.name, SUM(item.total_amount) AS sum_total_amount 
+FROM sale_order AS order 
+LEFT JOIN sale_order_item AS item ON order.order_id = item.order_id 
+LEFT JOIN customer ON order.customer_id = customer.customer_id 
+GROUP BY order.customer_id
