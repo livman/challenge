@@ -6,7 +6,7 @@ function endOfRightWall(currentPos, endWallPos)
 {
 	if( (currentPos + marginCarLeft) > endWallPos )
 	{
-		return -(marginCarLeft) - screenSideWidth;
+		return -(marginCarLeft) - screenSideWidth + 30;
 	}
 
 	return currentPos;
